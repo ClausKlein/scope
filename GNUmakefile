@@ -51,6 +51,7 @@ install: build/cmake_install.cmake
 
 distclean: clean
 	rm -rf build
+	find . -name '*~' -delete
 
 # Anything we don't know how to build will use this rule.
 % ::
