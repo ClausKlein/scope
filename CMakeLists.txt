@@ -173,7 +173,7 @@ set_target_properties(
 #
 # Install the libraries and its FILE_SET's.
 #
-include(cmake/beman-install-library.cmake)
+include(infra/cmake/beman-install-library.cmake)
 beman_install_library(beman.scope TARGETS beman.scope beman.scope_headers)
 
 # ---------------------------------------------------------------------------

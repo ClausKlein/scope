@@ -69,7 +69,7 @@ build/coverage: test
 	mkdir -p $@
 
 coverage: build/coverage
-	gcovr  --merge-mode-functions separate
+	gcovr --merge-mode-functions separate
 
 format: distclean
 	pre-commit autoupdate
